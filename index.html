@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>webpage</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <audio controls>
+      <source src="file_example_MP3_700KB.mp3" type="audio/mp3">
+    </audio>
+    <video controls width="320" height="240">
+      <source src="sample-mp4-file.mp4" type="video/mp4">
+    </video>
+    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="Tree tag">
+
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <script type="text/javascript">
+      var c = document.getElementById("canvas");
+      var ct = c.getContext("2d");
+      ct.font = "30px monospace";
+      ct.fillText("Hello", 10, 50);
+      ct.strokeText();
+    </script>
+  </body>
+</html>

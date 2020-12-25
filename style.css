@@ -1,0 +1,12 @@
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+  font-family: monospace;
+  color: red;
+}
+
+
+#canvas {
+  display: block;
+  border: 1px solid;
+}
